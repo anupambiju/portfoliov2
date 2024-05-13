@@ -615,7 +615,6 @@ span{
     }
     
     .skills{
-    /* padding-right: 50px; */
     background-color: var(--second-bg-color);
     padding-top: 25px;
     }
@@ -626,12 +625,8 @@ span{
     }
     .education-container{
         padding-bottom: 7rem;
-        /* grid-template-columns: repeat(1,1fr); */
         margin: 0 5rem;
     }
-    /* .projects-box{
-        grid-template-columns: repeat(1,1fr);
-    } */
     .projects-box img{
         min-width: 10vw;
     }
