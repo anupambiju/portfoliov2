@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.left{
+/* background-color: #0F172A; */
+color: white;
+height: 100vh;
+position: sticky;
+top: 0;
+
+width: 47%;
+
+
+}
+.right{
+width: 53%;
+/* background-color:  #0F172A; */
+color: rgb(177, 177, 177);
+
+}
+body{
+font-family: Poppins;
+display: flex;
+margin: 0;
+padding: 0;
+/* background: linear-gradient(141deg, #111F43 0%, #101C3A 51%, #0F172A 75%); */
+background: linear-gradient(141deg, #051f5d 0%, #101C3A 21%, #0F172A 35%, #051f5d 47%, #101C3A 61%, #0F172A 85%, #051f5d 97%);
+
+
+
+
+}
+
+.name-head{
+font-size: 300%;
+padding-left: 100px;
+/* text-align: center; */
+
+padding-top: 50px;
+}
+.job-title{
+padding-left: 100px;
+
+}
+.intro{
+
+width: 350px ;
+padding-left: 100px;
+margin-bottom: 70px;
+color: rgb(177, 177, 177);
+}
+.options{
+padding-left: 100px;
+display: flex;
+font-size: 82%;
+flex-wrap: wrap;
+margin-bottom: 20px;
+width: 50%;
+color: rgb(177, 177, 177);
+
+
+
+}
+
+.options:hover{
+width: 100%;
+transition: width 0.5s ease;
+color: white;
+.left-line{
+    background-color: white;
+}
+
+}
+.left-line{
+height: 2px;
+width:10%;
+border: 0;
+margin-left: 0;
+margin-right: 10px;
+transition: width 0.5s ease;
+background-color: rgb(177, 177, 177);  
+
+}
+#about{
+padding-top:80px;
+font-size: large;
+line-height:25px;
+width:500px;
+}
+.exp{
+display: flex;
+/* background-color: #0F172A; */
+width:550px;
+
+
+}
+.exp:hover{
+background: #162032;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.2px);
+-webkit-backdrop-filter: blur(4.2px);
+border: 1px solid rgba(255, 255, 255, 0.19);
+}
+.mail-button{
+background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+padding: 6px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.2px);
+-webkit-backdrop-filter: blur(4.2px);
+border: 1px solid rgba(255, 255, 255, 0.19);
+color: white;
+text-decoration: none;
+}
+#education{
+padding-top: 40px;
+padding-left: 20px;
+}
+#project-list{
+padding-left: 35px;
+padding-top: 50px;
+
+
+}
+.projects{
+width:500px;
+padding-left: 20px;
+padding-bottom: 15px;
+/* background-color: #0F172A; */
+}
+.projects:hover{
+background: #162032;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.2px);
+-webkit-backdrop-filter: blur(4.2px);
+border: 1px solid rgba(255, 255, 255, 0.19);
+}
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.row {
+display: flex;
+gap: 50px;
+padding-bottom: 50px;
+}
+.row img {
+flex: 1; 
+width: 80px;
+height: 80px;
+}
+.responsive-image{
+filter: grayscale(100%);
+transition: filter 0.3s ease; 
+transition: all 0.3s ease;
+}
+
+.responsive-image:hover {
+transform: scale(1.1);
+filter: grayscale(0%);
+}
+
+#skillset{
+padding-right: 50px;
+}
+.test1:hover>.test3{
+color: #56D8D4;
+}
+#contact{
+padding-bottom: 60px;
+width: 550px;
+text-align: center;
+padding-left: 40px;
+}
+.downloadbtn{
+background: #162032;
+border-radius: 16px;
+width: 150px;
+margin-left: 245px;
+backdrop-filter: blur(4.2px);
+-webkit-backdrop-filter: blur(4.2px);
+border: 1px solid rgba(255, 255, 255, 0.19);
+} .downloadbtn:hover{
+background: #1a4dab;
+transition: color 0.7s ease;
+
+}
