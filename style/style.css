@@ -459,7 +459,7 @@ span{
 }
 .project-card{
     height: 400px;
-    max-width: 450px;
+    max-width: 375px;
     background-color: rgba(0,0,0,0.3);
     backdrop-filter: blur(30px);
     border: 2px solid var(--main-color);
